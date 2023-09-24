@@ -1,17 +1,17 @@
 // src/AppRouter.js
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './Home'; // Import your page components
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Home';
 import Login from './Login';
 
 const AppRouter = () => {
   return (
     <Router>
-      
-        <Route exact path="/" component={Home} />
-        <Route exact path="/login" component={Login} />
-        {/* Add more routes for other pages here */}
-    
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/login" elementt={<Login/>} />
+        
+        </Routes>
     </Router>
   );
 }
