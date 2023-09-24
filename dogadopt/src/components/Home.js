@@ -8,7 +8,7 @@ const Home = () => {
   <div className="container flex">
   <Navbar />
   <div className="background-image">
-  <h1>Niogga</h1>
+  <h1 className="text-white">I love oten</h1>
   </div>
     
   
