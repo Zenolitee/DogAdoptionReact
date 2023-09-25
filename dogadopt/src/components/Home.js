@@ -5,10 +5,10 @@ import Navbar from "./Navbar.js"
 const Home = () => {
   return (
     
-  <div className="container flex">
+  <div className="container flex max-w-none">
   <Navbar />
   <div className="background-image">
-  <h1 className="text-white">I love oten</h1>
+
   </div>
     
   
