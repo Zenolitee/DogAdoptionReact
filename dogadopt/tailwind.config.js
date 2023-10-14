@@ -26,6 +26,10 @@ module.exports = {
                 }
               }   
       
+    },
+    fontFamily:{
+      'nunito': ['nunito', 'sans-serif'],
+      'display': ['Oswald'],
     }
   },
   plugins: [],
